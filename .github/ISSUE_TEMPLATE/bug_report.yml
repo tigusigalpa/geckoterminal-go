@@ -1,0 +1,40 @@
+name: Bug report
+description: Report a reproducible problem with the SDK
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: SDK version
+      description: For example v0.1.0
+      placeholder: v0.1.0
+    validations:
+      required: true
+  - type: input
+    id: go-version
+    attributes:
+      label: Go version
+      description: Output of "go version"
+      placeholder: go1.23.4
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the bug and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Minimal code sample and the endpoint called.
+      render: go
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / error output
+      render: text
