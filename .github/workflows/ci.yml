@@ -30,7 +30,7 @@ jobs:
       - run: go tool cover -func=coverage.out
       - name: Upload coverage to Codecov
         if: matrix.os == 'ubuntu-latest' && matrix.go == 'stable'
-        uses: codecov/codecov-action@v5
+        uses: codecov/codecov-action@v7
         with:
           files: coverage.out
           fail_ci_if_error: false
