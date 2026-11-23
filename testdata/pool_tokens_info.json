@@ -1,0 +1,68 @@
+{
+  "data": [
+    {
+      "id": "eth_0x6b175474e89094c44da98b954eedeac495271d0f",
+      "type": "token",
+      "attributes": {
+        "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "name": "Dai Stablecoin",
+        "symbol": "DAI",
+        "image_url": "https://assets.coingecko.com/coins/images/9956/small/Badge_Dai.png?1696509996",
+        "image": {
+          "thumb": "https://assets.coingecko.com/coins/images/9956/thumb/Badge_Dai.png?1696509996",
+          "small": "https://assets.coingecko.com/coins/images/9956/small/Badge_Dai.png?1696509996",
+          "large": "https://assets.coingecko.com/coins/images/9956/large/Badge_Dai.png?1696509996"
+        },
+        "banner_image_url": null,
+        "coingecko_coin_id": "dai",
+        "websites": ["https://makerdao.com/"],
+        "description": "Dai is a stablecoin.",
+        "gt_score": 91.0,
+        "discord_url": "https://discord.com/invite/makerdao",
+        "telegram_handle": null,
+        "twitter_handle": "MakerDAO",
+        "categories": ["Stablecoins"],
+        "gt_categories_id": [],
+        "holders": {
+          "count": 500000,
+          "distribution_percentage": { "top_10": "30.0", "11_30": "25.0", "31_50": "15.0", "rest": "30.0" },
+          "last_updated": "2025-03-12T05:28:50Z"
+        },
+        "is_honeypot": false
+      }
+    },
+    {
+      "id": "eth_0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "type": "token",
+      "attributes": {
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "name": "Wrapped Ether",
+        "symbol": "WETH",
+        "image_url": "https://assets.coingecko.com/coins/images/2518/small/weth.png?1696503332",
+        "coingecko_coin_id": "weth",
+        "websites": ["https://weth.io/"],
+        "description": "Wrapped Ether.",
+        "gt_score": 95.5,
+        "is_honeypot": false
+      }
+    }
+  ],
+  "included": [
+    {
+      "id": "eth_0x60594a405d53811d3bc4766596efd80fd545a270",
+      "type": "pool",
+      "attributes": {
+        "address": "0x60594a405d53811d3bc4766596efd80fd545a270",
+        "name": "DAI / WETH 0.05%",
+        "base_token_price_usd": "1.00107146675173",
+        "base_token_price_native_currency": "0.000580619400540271",
+        "base_token_price_quote_token": "0.0005806194005",
+        "quote_token_price_usd": "1723.98",
+        "quote_token_price_native_currency": "1.0",
+        "quote_token_price_base_token": "1722.298633269",
+        "pool_created_at": "2021-12-29T12:35:36Z",
+        "reserve_in_usd": "886269.1712"
+      }
+    }
+  ]
+}

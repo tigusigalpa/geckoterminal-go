@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "id": "eth_26475103_0xf25d8839c1c856cbe664451151a83d1a8f50b84b58c25e38c202148464ab6586_267_1795404028",
+      "type": "trade",
+      "attributes": {
+        "block_number": 26475103,
+        "block_timestamp": "2026-11-23T03:20:23Z",
+        "tx_hash": "0xf25d8839c1c856cbe664451151a83d1a8f50b84b58c25e38c202148464ab6586",
+        "tx_from_address": "0x5b43453fce04b92e190f391a83136bfbecedefd1",
+        "kind": "sell",
+        "from_token_address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "to_token_address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "from_token_amount": "1846.92134598154",
+        "to_token_amount": "1.06599603256358",
+        "price_from_in_usd": "0.992290063186192",
+        "price_to_in_usd": "1719.22",
+        "price_from_in_currency_token": "0.000577174569389719",
+        "price_to_in_currency_token": "1.0",
+        "volume_in_usd": "1832.68169910395",
+        "is_anomalous": false
+      }
+    },
+    {
+      "id": "eth_26475102_0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_1_1795404000",
+      "type": "trade",
+      "attributes": {
+        "block_number": 26475102,
+        "block_timestamp": "2026-11-23T03:19:55Z",
+        "tx_hash": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "tx_from_address": "0x1111111111111111111111111111111111111111",
+        "kind": "buy",
+        "from_token_address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "to_token_address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "from_token_amount": "0.5",
+        "to_token_amount": "861.0",
+        "price_from_in_usd": "1719.22",
+        "price_to_in_usd": "0.992290063186192",
+        "price_from_in_currency_token": "1.0",
+        "price_to_in_currency_token": "0.000577174569389719",
+        "volume_in_usd": "859.61",
+        "is_anomalous": true
+      }
+    }
+  ]
+}

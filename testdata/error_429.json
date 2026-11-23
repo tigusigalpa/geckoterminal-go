@@ -1,0 +1,4 @@
+{
+  "errors": [{ "status": "429", "title": "Too Many Requests" }],
+  "meta": { "ref_id": "a1b2c3d4-44c8-41ed-ad8c-a0692d443ca0" }
+}

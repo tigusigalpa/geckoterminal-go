@@ -1,0 +1,54 @@
+{
+  "data": {
+    "id": "eth_0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "type": "token",
+    "attributes": {
+      "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "image_url": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661",
+      "banner_image_url": "https://assets.geckoterminal.com/vgvwashzmsg7qt9iamrclayfplde",
+      "total_supply": "86789889806.7682",
+      "normalized_total_supply": "86789889806.7682",
+      "coingecko_coin_id": "tether",
+      "price_usd": "0.999789",
+      "fdv_usd": "86771280063.43",
+      "total_reserve_in_usd": "335714495.059134513199726364304069580849343577823934518315621723260820486809151975191568775052401150520637996530317619622915",
+      "volume_usd": { "h24": "520479735.261361" },
+      "market_cap_usd": "86771280063.43"
+    },
+    "relationships": {
+      "top_pools": {
+        "data": [
+          { "id": "eth_0x3416cf6c708da44db2624d63ea0aaef7113527c6", "type": "pool" },
+          { "id": "eth_0x11b815efb8f581194ae79006d24e0d814b7697f6", "type": "pool" }
+        ]
+      }
+    }
+  },
+  "included": [
+    {
+      "id": "eth_0x3416cf6c708da44db2624d63ea0aaef7113527c6",
+      "type": "pool",
+      "attributes": {
+        "address": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
+        "name": "USDC / USDT 0.01%",
+        "base_token_price_usd": "0.9998",
+        "base_token_price_native_currency": "0.9998",
+        "base_token_price_quote_token": "0.9998",
+        "quote_token_price_usd": "0.999789",
+        "quote_token_price_native_currency": "1.0002",
+        "quote_token_price_base_token": "1.0002",
+        "token_price_usd": "0.999789",
+        "pool_created_at": "2022-08-04T10:00:00Z",
+        "reserve_in_usd": "120000000.0",
+        "volume_usd": { "h24": "50000000.0" },
+        "transactions": {
+          "h24": { "buys": 900, "sells": 850, "buyers": 400, "sellers": 380, "unique_traders": 700 }
+        },
+        "price_change_percentage": { "h24": "-0.01" }
+      }
+    }
+  ]
+}

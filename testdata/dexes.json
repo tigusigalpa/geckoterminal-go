@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "id": "uniswap_v3",
+      "type": "dex",
+      "attributes": { "name": "Uniswap V3" }
+    },
+    {
+      "id": "uniswap_v2",
+      "type": "dex",
+      "attributes": { "name": "Uniswap V2" }
+    },
+    {
+      "id": "sushiswap",
+      "type": "dex",
+      "attributes": { "name": "SushiSwap" }
+    }
+  ]
+}

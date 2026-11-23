@@ -1,0 +1,27 @@
+{
+  "data": {
+    "id": "bc786a99-7205-4c80-aaa1-b9634d97c926",
+    "type": "ohlcv_request_response",
+    "attributes": {
+      "ohlcv_list": [
+        [1712534400, 3454.61590249189, 3660.85954963415, 3417.91885296256, 3660.85954963415, 306823.277031161],
+        [1712448000, 3362.60273217873, 3455.28884490954, 3352.95305060685, 3454.61590249189, 242144.864784184],
+        [1712361600, 3300.1, 3362.5, 3290.0, 3362.60273217873, 190000.5]
+      ]
+    }
+  },
+  "meta": {
+    "base": {
+      "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "coingecko_coin_id": "weth"
+    },
+    "quote": {
+      "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "coingecko_coin_id": "tether"
+    }
+  }
+}

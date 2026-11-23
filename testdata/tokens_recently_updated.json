@@ -1,0 +1,59 @@
+{
+  "data": [
+    {
+      "id": "solana_8kgMCX7ezivU472eXaiGRu8xzNetpdxKDvNQBwKRipxi",
+      "type": "token",
+      "attributes": {
+        "address": "8kgMCX7ezivU472eXaiGRu8xzNetpdxKDvNQBwKRipxi",
+        "name": "WIZARDS OF DOGE",
+        "symbol": "WOD",
+        "decimals": 6,
+        "image_url": "https://assets.geckoterminal.com/23fwhe56einulc0vqgs6bhkfusfr",
+        "banner_image_url": null,
+        "coingecko_coin_id": null,
+        "websites": ["https://wizzoordofwod.com"],
+        "discord_url": null,
+        "telegram_handle": null,
+        "twitter_handle": "wizzoordofwod",
+        "description": "Our mission is to help the IRL Wizards of Doge go viral.",
+        "gt_score": 62.50770642201834,
+        "gt_category_ids": ["cat-9"],
+        "metadata_updated_at": "2025-05-26T07:47:20Z"
+      },
+      "relationships": {
+        "network": { "data": { "id": "solana", "type": "network" } }
+      }
+    },
+    {
+      "id": "eth_0xabcdef1234567890abcdef1234567890abcdef12",
+      "type": "token",
+      "attributes": {
+        "address": "0xabcdef1234567890abcdef1234567890abcdef12",
+        "name": "Sample Token",
+        "symbol": "SMPL",
+        "decimals": 18,
+        "image_url": "https://assets.geckoterminal.com/sample",
+        "banner_image_url": null,
+        "coingecko_coin_id": null,
+        "websites": [],
+        "gt_score": 10.0,
+        "metadata_updated_at": "2025-05-26T06:00:00Z"
+      },
+      "relationships": {
+        "network": { "data": { "id": "eth", "type": "network" } }
+      }
+    }
+  ],
+  "included": [
+    {
+      "id": "solana",
+      "type": "network",
+      "attributes": { "name": "Solana", "coingecko_asset_platform_id": "solana" }
+    },
+    {
+      "id": "eth",
+      "type": "network",
+      "attributes": { "name": "Ethereum", "coingecko_asset_platform_id": "ethereum" }
+    }
+  ]
+}

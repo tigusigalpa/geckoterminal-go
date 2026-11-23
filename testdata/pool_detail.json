@@ -1,0 +1,104 @@
+{
+  "data": {
+    "id": "eth_0x60594a405d53811d3bc4766596efd80fd545a270",
+    "type": "pool",
+    "attributes": {
+      "base_token_price_usd": "1.00107146675173",
+      "base_token_price_native_currency": "0.000580619400540271",
+      "base_token_balance": "414728.187416932",
+      "base_token_liquidity_usd": "415145.065009079040209753105859666959720400776461442432",
+      "quote_token_price_usd": "1723.98",
+      "quote_token_price_native_currency": "1.0",
+      "quote_token_balance": "273.269110738763",
+      "quote_token_liquidity_usd": "471124.1061909816805092935820063116834581001728",
+      "base_token_price_quote_token": "0.0005806194005",
+      "quote_token_price_base_token": "1722.298633269",
+      "address": "0x60594a405d53811d3bc4766596efd80fd545a270",
+      "name": "DAI / WETH 0.05%",
+      "pool_name": "DAI / WETH",
+      "pool_fee_percentage": "0.05",
+      "pool_created_at": "2021-12-29T12:35:36Z",
+      "fdv_usd": "4355394853.81743",
+      "market_cap_usd": "4352075605.45934",
+      "price_change_percentage": {
+        "m5": "0.043", "m15": "0.024", "m30": "0.122",
+        "h1": "0.137", "h6": "-0.027", "h24": "-0.008"
+      },
+      "transactions": {
+        "m5": { "buys": 3, "sells": 0, "buyers": 2, "sellers": 0, "unique_traders": 2 },
+        "m15": { "buys": 10, "sells": 3, "buyers": 8, "sellers": 3, "unique_traders": 11 },
+        "m30": { "buys": 25, "sells": 9, "buyers": 20, "sellers": 9, "unique_traders": 28 },
+        "h1": { "buys": 55, "sells": 40, "buyers": 41, "sellers": 33, "unique_traders": 66 },
+        "h6": { "buys": 300, "sells": 290, "buyers": 160, "sellers": 180, "unique_traders": 320 },
+        "h24": { "buys": 487, "sells": 538, "buyers": 230, "sellers": 296, "unique_traders": 478 }
+      },
+      "volume_usd": {
+        "m5": "573.6712893456", "m15": "1510.8838965099", "m30": "3376.1608613401",
+        "h1": "4416.6206311411", "h6": "34461.0109117961", "h24": "176171.740603981"
+      },
+      "net_buy_volume_usd": {
+        "m5": "573.6712893456", "m15": "971.5787304689", "m30": "1072.5464519153",
+        "h1": "32.0866821143", "h6": "1441.6259870949", "h24": "-4716.5197581542"
+      },
+      "buy_volume_usd": {
+        "m5": "573.6712893456", "m15": "1241.2313134894", "m30": "2224.3536566277",
+        "h1": "2224.3536566277", "h6": "17951.3184494455", "h24": "85727.6104229137"
+      },
+      "sell_volume_usd": {
+        "m5": "0.0", "m15": "269.6525830205", "m30": "1151.8072047124",
+        "h1": "2192.2669745134", "h6": "16509.6924623506", "h24": "90444.1301810679"
+      },
+      "reserve_in_usd": "886269.1712",
+      "locked_liquidity_percentage": null,
+      "sentiment_vote_positive_percentage": 73.5,
+      "sentiment_vote_negative_percentage": 26.5,
+      "community_sus_report": 0
+    },
+    "relationships": {
+      "base_token": { "data": { "id": "eth_0x6b175474e89094c44da98b954eedeac495271d0f", "type": "token" } },
+      "quote_token": { "data": { "id": "eth_0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2", "type": "token" } },
+      "dex": { "data": { "id": "uniswap_v3", "type": "dex" } }
+    }
+  },
+  "included": [
+    {
+      "id": "eth_0x6b175474e89094c44da98b954eedeac495271d0f",
+      "type": "token",
+      "attributes": {
+        "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "name": "Dai Stablecoin",
+        "symbol": "DAI",
+        "decimals": 18,
+        "image_url": "https://coin-images.coingecko.com/coins/images/9956/large/Badge_Dai.png?1696509996",
+        "coingecko_coin_id": "dai"
+      }
+    },
+    {
+      "id": "eth_0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "type": "token",
+      "attributes": {
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "name": "Wrapped Ether",
+        "symbol": "WETH",
+        "decimals": 18,
+        "image_url": "https://coin-images.coingecko.com/coins/images/2518/large/weth.png?1696503332",
+        "coingecko_coin_id": "weth"
+      }
+    },
+    {
+      "id": "uniswap_v3",
+      "type": "dex",
+      "attributes": { "name": "Uniswap V3" }
+    },
+    {
+      "id": "eth",
+      "type": "network",
+      "attributes": { "name": "Ethereum", "coingecko_asset_platform_id": "ethereum" }
+    },
+    {
+      "id": "something_unknown",
+      "type": "mystery_resource",
+      "attributes": { "ignored": true }
+    }
+  ]
+}

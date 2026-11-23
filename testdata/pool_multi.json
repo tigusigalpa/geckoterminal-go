@@ -1,0 +1,69 @@
+{
+  "data": [
+    {
+      "id": "eth_0x60594a405d53811d3bc4766596efd80fd545a270",
+      "type": "pool",
+      "attributes": {
+        "base_token_price_usd": "1.00107146675173",
+        "base_token_price_native_currency": "0.000580619400540271",
+        "base_token_price_quote_token": "0.0005806194005",
+        "quote_token_price_usd": "1723.98",
+        "quote_token_price_native_currency": "1.0",
+        "quote_token_price_base_token": "1722.298633269",
+        "address": "0x60594a405d53811d3bc4766596efd80fd545a270",
+        "name": "DAI / WETH 0.05%",
+        "pool_created_at": "2021-12-29T12:35:36Z",
+        "fdv_usd": "4355394853.81743",
+        "market_cap_usd": "4352075605.45934",
+        "price_change_percentage": { "h24": "-0.008" },
+        "transactions": {
+          "h24": { "buys": 487, "sells": 538, "buyers": 230, "sellers": 296, "unique_traders": 478 }
+        },
+        "volume_usd": { "h24": "176171.740603981" },
+        "reserve_in_usd": "886269.1712"
+      },
+      "relationships": {
+        "base_token": { "data": { "id": "eth_0x6b175474e89094c44da98b954eedeac495271d0f", "type": "token" } },
+        "quote_token": { "data": { "id": "eth_0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2", "type": "token" } },
+        "dex": { "data": { "id": "uniswap_v3", "type": "dex" } }
+      }
+    },
+    {
+      "id": "eth_0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+      "type": "pool",
+      "attributes": {
+        "base_token_price_usd": "0.9998",
+        "base_token_price_native_currency": "0.0005810",
+        "base_token_price_quote_token": "0.0005810",
+        "quote_token_price_usd": "1721.50",
+        "quote_token_price_native_currency": "1.0",
+        "quote_token_price_base_token": "1721.84",
+        "address": "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+        "name": "USDC / WETH 0.05%",
+        "pool_created_at": "2021-05-05T21:42:11Z",
+        "fdv_usd": "32000000000.1",
+        "market_cap_usd": null,
+        "price_change_percentage": { "h24": "-0.15" },
+        "transactions": {
+          "h24": { "buys": 1200, "sells": 1400, "buyers": 600, "sellers": 700, "unique_traders": 1200 }
+        },
+        "volume_usd": { "h24": "95000000.12" },
+        "reserve_in_usd": "350000000.55"
+      }
+    }
+  ],
+  "included": [
+    {
+      "id": "eth_0x6b175474e89094c44da98b954eedeac495271d0f",
+      "type": "token",
+      "attributes": {
+        "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "name": "Dai Stablecoin",
+        "symbol": "DAI",
+        "decimals": 18,
+        "image_url": "https://coin-images.coingecko.com/coins/images/9956/large/Badge_Dai.png?1696509996",
+        "coingecko_coin_id": "dai"
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "id": "eth",
+      "type": "network",
+      "attributes": {
+        "name": "Ethereum",
+        "coingecko_asset_platform_id": "ethereum"
+      }
+    },
+    {
+      "id": "bsc",
+      "type": "network",
+      "attributes": {
+        "name": "BNB Chain",
+        "coingecko_asset_platform_id": "binance-smart-chain"
+      }
+    },
+    {
+      "id": "solana",
+      "type": "network",
+      "attributes": {
+        "name": "Solana",
+        "coingecko_asset_platform_id": "solana"
+      }
+    }
+  ],
+  "links": {
+    "first": "https://api.geckoterminal.com/api/v2/networks?page=1",
+    "prev": null,
+    "next": "https://api.geckoterminal.com/api/v2/networks?page=2",
+    "last": "https://api.geckoterminal.com/api/v2/networks?page=3"
+  }
+}
